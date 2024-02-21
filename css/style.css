@@ -395,7 +395,7 @@ img {
 }
 
 .buisnes_container {
-    max-width: 1374px;
+    max-width: 1412px;
     margin-left: auto;
     margin-right: auto;
     padding: 0px 20px;
@@ -728,6 +728,7 @@ img {
     position: absolute;
     right: 0;
     top: 145px;
+    padding-right: 20px;
 }
 
 .story_title {
@@ -861,11 +862,10 @@ img {
 }
 
 .prices_container {
-    max-width: 1504px;
-    margin-left: auto;
+    max-width: 1544px;
     padding: 0px 20px;
+    margin-left: auto;
     margin-right: auto;
-    z-index: -100;
 }
 
 .prices_title {
@@ -895,7 +895,7 @@ img {
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 56px;
+    margin-bottom: 86px;
 }
 
 .monthly {
@@ -943,7 +943,9 @@ img {
 .monthly:hover,
 .yearly:hover,
 .popular:hover,
-.seeFeatures:hover {
+.seeFeatures:hover,
+.send:hover,
+.contact_us:hover {
     border: 1px solid rgb(0, 163, 255);
     background-color: rgb(14, 14, 14);
     color: rgb(0, 163, 255);
@@ -952,6 +954,8 @@ img {
 .popular {
     max-width: 225px;
     width: 100%;
+    position: absolute;
+    font-family: syne, sans-serif;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -968,25 +972,34 @@ img {
     align-items: center;
     justify-content: center;
     transition: all .3s;
-    margin-bottom: -30px;
+    top: -38px;
 }
 
 .prices_card_box {
-    z-index: 5;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
+    max-width: 1500px;
+    width: 100%;
 }
 
 .prices_card {
     box-sizing: border-box;
     border: 1.5px solid rgba(255, 255, 255, 0.2);
     border-radius: 10px;
-    padding: 63px 106px 67px;
+    padding: 63px 92px 67px;
     background: rgb(14, 14, 14);
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    /* width: 487px; */
+    width: 100%;
+    transition: all .3s;
+}
+
+.prices_card:hover {
+    background-color: rgb(24, 24, 24);
 }
 
 .g {
@@ -1004,6 +1017,7 @@ img {
 .startup_title {
     color: rgb(0, 163, 255);
     font-size: 18px;
+    text-align: center;
     margin-bottom: 55px;
     font-weight: 700;
     line-height: 190%;
@@ -1045,8 +1059,149 @@ img {
     background: rgb(0, 163, 255);
     display: flex;
     align-items: center;
-    z-index: 9999999992;
+    z-index: 1111111111;
     justify-content: center;
     text-decoration: none;
     cursor: pointer;
+    transition: all .3s;
+    flex-shrink: 0;
+}
+
+/* talk section start */
+
+.talk {
+    padding-top: 97px;
+    padding-bottom: 92px;
+}
+
+.talk_container {
+    max-width: 1500px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 102px;
+    align-items: end;
+    padding: 0 20px;
+}
+
+.talk_input_box {
+    max-width: 739px;
+    width: 100%;
+    padding: 61px;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    background: rgb(14, 14, 14);
+}
+
+.form_names {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.names {
+    border-radius: 10px;
+    background: rgb(24, 24, 24);
+    border: none;
+    padding: 15px 29px;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: Syne, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    font-weight: 500;
+    line-height: 190%;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.full_w {
+    border-radius: 10px;
+    background: rgb(24, 24, 24);
+    border: none;
+    padding: 15px 29px;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: Syne, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    font-weight: 500;
+    line-height: 190%;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.info {
+    border-radius: 10px;
+    background: rgb(24, 24, 24);
+    border: none;
+    padding: 15px 29px;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: Syne, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    font-weight: 500;
+    line-height: 190%;
+    outline: none;
+    margin-bottom: 48px;
+}
+
+.send {
+    border-radius: 10px;
+    background: rgb(0, 163, 255);
+    color: rgb(255, 255, 255);
+    font-family: Syne, sans-serif;
+    font-size: 17px;
+    padding: 14px 200px;
+    font-weight: 700;
+    line-height: 190%;
+    width: 100%;
+    transition: all .3s;
+}
+
+/* talk content box start */
+.talk_content_box {
+    max-width: 659px;
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+.talk_title {
+    color: rgb(255, 255, 255);
+    font-size: 59px;
+    font-weight: 700;
+    line-height: 125.5%;
+    margin-bottom: 9px;
+}
+
+.talk_line {
+    border: 1px solid rgb(0, 163, 255);
+    width: 100%;
+    max-width: 125.5px;
+    display: flex;
+    margin-left: auto;
+    margin-right: 29.5px;
+    height: 0;
+    margin-bottom: 81px;
+}
+
+.talk_text {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 190%;
+    margin-bottom: 44px;
+}
+
+.contact_us {
+    border-radius: 10px;
+    padding: 14px 44px;
+    background: rgb(0, 163, 255);
+    border: 1px solid transparent;
+    color: rgb(255, 255, 255);
+    font-family: Syne, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 190%;
+    transition: all .3s;
 }
