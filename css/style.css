@@ -111,6 +111,7 @@ body {
     width: 43px;
     height: 25px;
     cursor: pointer;
+    display: none;
 }
 
 img {
@@ -222,6 +223,8 @@ img {
 }
 
 .intelegent_text {
+    max-width: 655px;
+    width: 100%;
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 400;
@@ -243,6 +246,9 @@ img {
     padding: 12px 71px;
     text-decoration: none;
     transition: all .3s;
+    display: flex;
+    max-width: 250px;
+    width: 100%;
 }
 
 .learn_more:hover {
@@ -283,8 +289,7 @@ img {
 }
 
 .negrlar {
-    width: 748px;
-    height: 815px;
+    width: 100%;
     border-radius: 10px;
     box-shadow: 0 0 20px 10px rgba(128, 128, 128, 0.671);
 }
@@ -322,7 +327,6 @@ img {
 
 .counter_content {
     width: 171px;
-    height: 163px;
     gap: 10px;
     display: flex;
     flex-direction: column;
@@ -528,6 +532,10 @@ img {
     border: 1.5px solid rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     background: rgb(14, 14, 14);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .creating_card:hover {
@@ -1295,4 +1303,100 @@ img {
 
 .logo {
     display: flex;
+}
+
+@media(max-width: 1390px) {
+
+    .nav-link {
+        font-size: 15px;
+    }
+
+    .hero_title {
+        font-size: 50px;
+        max-width: 547px;
+    }
+
+    .hero_img {
+        width: 384.95px;
+        height: 416.88px;
+    }
+
+    .intelegent_container {
+        gap: 50px;
+    }
+
+    .intelegent_title {
+        font-size: 36px;
+        margin-bottom: 8px;
+    }
+
+    .intelegent_line {
+        margin-bottom: 20px;
+    }
+
+    .intelegent_text {
+        font-size: 16px;
+    }
+
+    .learn_more {
+        max-width: 270px;
+        font-size: 14px;
+        padding: 9px 60px;
+        justify-content: center;
+    }
+
+    .intelegent_boy {
+        width: 673px;
+        height: 452px;
+    }
+
+    .design_content_title {
+        font-size: 38px;
+        margin-bottom: 25px;
+    }
+
+    .design_content_text {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .open_btn {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .open_text {
+        font-size: 16px;
+    }
+
+    .design_counter {
+        max-width: 262px;
+        width: 100%;
+    }
+
+    .design_img_box {
+        width: 600px;
+        min-width: 400px;
+        display: flex;
+    }
+
+    .counter_number {
+        font-size: 50px;
+    }
+
+    .buisnes_title {
+        font-size: 42px;
+        margin-bottom: 20px;
+    }
+
+    .buisnes_text {
+        font-size: 15px;
+        margin-bottom: 20px;
+        max-width: 483px;
+    }
+
+    .buisnes_training {
+        width: 750px;
+        height: 482px;
+    }
 }
