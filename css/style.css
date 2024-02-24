@@ -989,14 +989,6 @@ img {
     top: -38px;
 }
 
-.prices_card_box {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 20px;
-    max-width: 1500px;
-    width: 100%;
-}
-
 .prices_card {
     box-sizing: border-box;
     border: 1.5px solid rgba(255, 255, 255, 0.2);
@@ -1308,6 +1300,93 @@ img {
 
 .logo {
     display: flex;
+    color: #fff;
+    transition: all .3s;
+}
+
+.responsive{
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+    display: none;
+    top: 0;
+    background: linear-gradient(to top left,#00e1ff81, rgba(0, 0, 0, 0.836) , rgba(0, 0, 0, 0.705) , rgba(0, 0, 0, 0.705) , rgba(25, 0, 255, 0.637));
+    z-index: 9999;
+    padding: 20px;
+    transition: all .3s;
+    left: -100%;
+}
+
+.nav-close{
+    background-color: transparent;
+    padding: 8px;
+    width: 50px;
+    border: none;
+    height: 50px;
+    margin-left: auto;
+    display: flex;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.responsive_nav{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.responsive_nav_link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.responsive_nav_link:hover{
+    color: #00e1ffdc;
+    text-shadow: 0 0 3px #00e1ffdc;
+}
+
+.logo:hover{
+    color: rgba(254, 254, 255, 0.473);
+}
+
+.box1{
+    position: absolute;
+    transition: all .5s;
+    right: -600%;
+    top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    max-width: 1500px;
+    width: 100%;
+    transition: all .5s;
+}
+
+.card-box-flex{
+    display: flex;
+    gap: 20px;
+    height: 740px;
+    overflow: hidden;
+    padding-top: 40px;
+    position: relative;
+    /* border: 2px solid red; */
+}
+
+.prices_card_box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    max-width: 1500px;
+    width: 100%;
+    transition: all .5s;
+    position: absolute;
+    left: 0%;
+    top: 40px;
+    /* border: 2px solid red; */
 }
 
 /* .buisnes_content{
@@ -1818,6 +1897,15 @@ img {
         display: none;
     }
 
+    .responsive{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-box-flex{
+        height: 1650px;
+    }
+
     .intelegent_container {
         flex-direction: column;
     }
@@ -1874,9 +1962,14 @@ img {
     }
 
     .design_content_title {
-        max-width: 330px;
+        max-width: 550px;
         text-align: center;
+        font-size: 40px;
         margin-left: auto;
+        margin-right: auto;
+    }
+
+    .intelegent_line {
         margin-right: auto;
     }
 
@@ -1898,13 +1991,27 @@ img {
         gap: 40px;
     }
 
+    .buisnes_title {
+        font-size: 40px;
+        text-align: center;
+        max-width: 550px;
+    }
+
+    .buisnes_text {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .creating-top-box {
         flex-direction: column;
         gap: 20px;
     }
 
     .creating-top-box-title {
-        font-size: 30px;
+        font-size: 40px;
+        text-align: center;
+        padding-right: 0;
     }
 
     .creating_card_box {
@@ -1920,7 +2027,23 @@ img {
     }
 
     .brands_title {
-        font-size: 30px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .story_title {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 40px;
+        max-width: 550px;
+        justify-content: center;
+    }
+
+    .story_title_line {
+        bottom: -5px;
+        left: 122px;
+        display: none;
     }
 
     .brends_card_box {
@@ -1933,6 +2056,7 @@ img {
 
     .brends_card {
         padding: 13px;
+        max-width: 100%;
     }
 
     .designerGirl {
@@ -1942,11 +2066,16 @@ img {
     .story_content_box {
         position: initial;
         padding-right: 0;
+        width: 100%;
+    }
+
+    .position_card {
+        max-width: 100%;
     }
 
     .position_card_text {
         font-size: 12px;
-        text-align: center;
+        text-align: left;
     }
 
     .ptichkali_item {
@@ -1954,7 +2083,7 @@ img {
     }
 
     .partners_title {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .brands_box {
@@ -1970,7 +2099,10 @@ img {
     }
 
     .prices_title {
-        font-size: 30px;
+        font-size: 40px;
+        max-width: 550px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .monthly,
@@ -1983,7 +2115,7 @@ img {
         gap: 15px;
     }
 
-    .prices_card_box {
+    .prices_card_box, .box1 {
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 20px;
     }
@@ -1993,62 +2125,68 @@ img {
     }
 
     .talk_title {
-        font-size: 30px;
+        font-size: 40px;
+        max-width: 550px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .talk_line{
+    .talk_line {
         margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .talk_text{
+    .talk_text {
         font-size: 14px;
     }
 
-    .contact_us{
+    .contact_us {
         font-size: 12px;
         padding: 6px 18px;
     }
 
-    .form_names{
+    .form_names {
         flex-direction: column;
         margin-bottom: 20px;
         gap: 20;
     }
 
-    .talk_input_box{
+    .talk_input_box {
         padding: 18px;
     }
 
-    .names{
+    .names {
         margin-bottom: 0;
     }
 
-    .info{
+    .info {
         margin-bottom: 0px;
     }
-    
-    .send{
+
+    .send {
         padding: 12px;
     }
 
-    .footer_container{
+    .footer_container {
         flex-direction: column;
         gap: 20px;
     }
 
-    .footer_logo_box{
+    .footer_logo_box {
         flex-direction: row;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .footer_box{
+    .footer_box {
         margin-left: auto;
         margin-right: auto;
         align-items: center;
     }
 
-    .footer_text{
+    .footer_text {
         text-align: center;
     }
 }
