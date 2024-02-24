@@ -243,7 +243,8 @@ img {
     font-weight: 700;
     line-height: 24px;
     text-align: center;
-    padding: 12px 71px;
+    padding: 12px 41px;
+    justify-content: center;
     text-decoration: none;
     transition: all .3s;
     display: flex;
@@ -387,6 +388,9 @@ img {
     max-width: 651px;
     line-height: 190%;
     margin-bottom: 23px;
+    height: 0;
+    overflow: hidden;
+    transition: all .3s;
 }
 
 .hr {
