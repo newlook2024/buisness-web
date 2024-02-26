@@ -1408,6 +1408,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    gap: 20px;
     align-items: center;
     justify-content: space-between;
     padding-left: 20px;
@@ -1690,8 +1691,12 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
     position: relative;
+    background-position: center;
+    border-radius: 10px;
+    background-size: cover;
+    background-image: url(/img/about/PNGs/ofitsant.png);
+    box-shadow: 0 0 20px 15px rgba(128, 128, 128, 0.705);
 }
 
 .team-card-content {
@@ -1704,16 +1709,20 @@ img {
 }
 
 .worker-name {
-    max-width: 224px;
+    max-width: 322px;
     color: rgb(255, 255, 255);
     font-size: 35px;
+    display: flex;
+    justify-content: center;
     font-weight: 700;
     line-height: 190%;
     text-align: center;
 }
 
 .worker-work {
-    max-width: 137px;
+    max-width: 239px;
+    display: flex;
+    justify-content: center;
     margin-bottom: 21px;
     color: rgb(0, 163, 255);
     font-size: 18px;
@@ -1724,7 +1733,7 @@ img {
     margin-right: auto;
 }
 
-.worker-img{
+.worker-img {
     width: 100%;
     height: 100%;
 }
@@ -1742,6 +1751,10 @@ img {
     background-color: #fff;
     color: #fff;
     border-radius: 10px;
+}
+
+.logo:hover {
+    opacity: .7;
 }
 
 /* LAPTOP VERSION */
@@ -1910,6 +1923,66 @@ img {
     .seeFeatures {
         font-size: 14px;
         padding: 14px 20px;
+    }
+
+    .hero1 {
+        padding-top: 125px;
+        padding-bottom: 140px;
+    }
+
+    .hero-title {
+        max-width: 694px;
+        font-size: 48px;
+    }
+
+    .hero-img,
+    .hero-img1 {
+        height: 480px;
+    }
+
+    .work {
+        padding-top: 140px;
+        padding-bottom: 120px;
+    }
+
+    .work-title {
+        font-size: 48px;
+    }
+
+    .work-img-box {
+        height: 660px;
+    }
+
+    .mind {
+        padding-top: 120px;
+        padding-bottom: 90px;
+    }
+
+    .mind-title {
+        font-size: 48px;
+        margin-bottom: 100px;
+    }
+
+    .mind-img {
+        height: 380px;
+    }
+
+    .mind-content-title,
+    .mind-content-title1 {
+        max-width: 585px;
+        font-size: 28px;
+    }
+
+    .mind-content-text {
+        line-height: 150%;
+    }
+
+    .mind-box {
+        margin-bottom: 120px;
+    }
+
+    .team {
+        padding-top: 70px;
     }
 }
 
@@ -2238,6 +2311,117 @@ img {
 
     .line-box {
         display: none;
+    }
+
+    .hero1 {
+        padding-bottom: 40px;
+    }
+
+    .hero-container1 {
+        flex-direction: column;
+    }
+
+    .hero-img-box {
+        flex-direction: column;
+    }
+
+    .hero-img,
+    .hero-img1 {
+        height: 300px;
+        margin-top: 0;
+        max-width: none;
+        width: 100%;
+    }
+
+    .hero-img2 {
+        display: none;
+    }
+
+    .hero-title {
+        font-size: 35px;
+    }
+
+    .hero-text {
+        font-size: 14px;
+    }
+
+    .work {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .work-container {
+        flex-direction: column;
+    }
+
+    .work-title {
+        font-size: 35px;
+        max-width: 493px;
+        text-align: center;
+    }
+
+    .work-title::after {
+        display: none;
+    }
+
+    .work-img-box {
+        height: 556px;
+    }
+
+    .work-text {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .mind-title {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    .mind-box {
+        flex-direction: column;
+    }
+
+    .mind-box1 {
+        flex-direction: column-reverse;
+        margin-bottom: 100px;
+    }
+
+    .mind-content-title {
+        text-align: center;
+        line-height: 120%;
+    }
+
+    .mind-content-title1 {
+        text-align: center;
+        line-height: 120%;
+    }
+
+    .mind-content-text {
+        text-align: center;
+        line-height: 120%;
+    }
+
+    .mind-list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team-card {
+        height: 515px;
+    }
+
+    .worker-name {
+        font-size: 28px;
+    }
+
+    .creating-top-box1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .team-card-box {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
