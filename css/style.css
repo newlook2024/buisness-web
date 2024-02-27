@@ -1608,7 +1608,7 @@ img {
     max-width: 788px;
     height: 447px;
     border-radius: 10px;
-    box-shadow: 0 0 15px 5px gray;
+    box-shadow: rgba(100, 100, 111, 0.534) 0px 0px 29px 10px;
 }
 
 .mind-content {
@@ -1681,6 +1681,7 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
+    grid-row-gap: 20px;
 }
 
 .team-card {
@@ -1696,7 +1697,7 @@ img {
     border-radius: 10px;
     background-size: cover;
     background-image: url(/img/about/PNGs/ofitsant.png);
-    box-shadow: 0 0 20px 15px rgba(128, 128, 128, 0.705);
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
 }
 
 .team-card-content {
@@ -2724,5 +2725,9 @@ img {
 
     .footer_text {
         text-align: center;
+    }
+
+    .mind-img{
+        height: 179px;
     }
 }
