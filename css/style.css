@@ -2812,7 +2812,7 @@ img {
     }
 
     .card-box-flex {
-        height: 1650px;
+        height: 1521px;
     }
 
     .intelegent_container {
@@ -2844,6 +2844,8 @@ img {
     .hero_title {
         text-align: center;
         max-width: 600px;
+        font-size: 28px;
+        max-width: 285px;
     }
 
     .intelegent_boy {
@@ -2873,7 +2875,7 @@ img {
     .design_content_title {
         max-width: 550px;
         text-align: center;
-        font-size: 40px;
+        font-size: 28px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -2901,7 +2903,7 @@ img {
     }
 
     .buisnes_title {
-        font-size: 40px;
+        font-size: 28px;
         text-align: center;
         max-width: 550px;
     }
@@ -2918,7 +2920,7 @@ img {
     }
 
     .creating-top-box-title {
-        font-size: 40px;
+        font-size: 28px;
         text-align: center;
         padding-right: 0;
     }
@@ -2936,7 +2938,7 @@ img {
     }
 
     .brands_title {
-        font-size: 40px;
+        font-size: 28px;
         text-align: center;
     }
 
@@ -2944,7 +2946,7 @@ img {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        font-size: 40px;
+        font-size: 28px;
         max-width: 550px;
         justify-content: center;
     }
@@ -2992,7 +2994,7 @@ img {
     }
 
     .partners_title {
-        font-size: 40px;
+        font-size: 28px;
     }
 
     .brands_box {
@@ -3008,7 +3010,7 @@ img {
     }
 
     .prices_title {
-        font-size: 40px;
+        font-size: 28px;
         max-width: 550px;
         margin-left: auto;
         margin-right: auto;
