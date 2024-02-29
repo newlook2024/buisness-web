@@ -31,3 +31,18 @@ open.forEach(function(item, index){
         openT[index].style.height = "120px"
     })
 })
+
+let dumaloq = document.querySelector('#upArrow')
+
+window.addEventListener('scroll', function () {
+    let a = Math.floor(this.window.pageYOffset)
+    console.log(a);
+    if(a > 1000){
+        dumaloq.style.right = '10px'
+    }else{
+        dumaloq.style.right = '-100%'
+    }
+    dumaloq.addEventListener('click', function(){
+        
+    })
+})
