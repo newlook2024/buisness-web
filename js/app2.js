@@ -13,10 +13,10 @@ let allApps = document.querySelector('.all-apps')
 let apps = document.querySelector('.apps-box')
 
 allApps.addEventListener('click', function(){
-    if(apps.style.height == '216px'){
+    if(apps.style.height != '820px'){
         apps.style.height = '820px'
     }else{
-        apps.style.height = '216px'
+        apps.style.height = '321px'
     }
 })
 
