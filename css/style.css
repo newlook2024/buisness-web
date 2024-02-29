@@ -28,6 +28,9 @@ body {
     background-color: rgb(14, 14, 14);
     font-family: "Syne", sans-serif;
     overflow-x: hidden;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header {
@@ -1219,6 +1222,7 @@ img {
     font-weight: 700;
     line-height: 190%;
     transition: all .3s;
+    text-decoration: none;
 }
 
 /* footer start */
@@ -1758,8 +1762,287 @@ img {
     opacity: .7;
 }
 
+/* service page start */
+.hero2 {
+    padding-top: 150px;
+    padding-bottom: 181px;
+}
+
+.hero2-conntainer {
+    max-width: 1378px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    justify-content: space-between;
+    gap: 20px;
+    position: relative;
+}
+
+.hero2-content {
+    max-width: 847px;
+    width: 100%;
+}
+
+.hero2-title {
+    color: rgb(255, 255, 255);
+    font-family: Nunito, sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 120%;
+    max-width: 907px;
+    /* width: 100%; */
+    display: flex;
+    letter-spacing: -1%;
+    margin-bottom: 24px;
+}
+
+.hero2-text {
+    color: rgb(255, 255, 255);
+    font-family: Rubik, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 155%;
+    letter-spacing: 2%;
+    max-width: 747px;
+    width: 100%;
+    margin-bottom: 56px;
+}
+
+.google-play {
+    display: flex;
+    max-width: 405px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.googlePlay {
+    padding: 9px 13px;
+    display: flex;
+    gap: 11.05px;
+    align-items: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1.55px solid rgb(166, 166, 166);
+    border-radius: 10.85px;
+    background: rgb(0, 0, 0);
+}
+
+.playStore {
+    width: 31.98px;
+    height: 35.63px;
+    display: flex;
+}
+
+.googlePlay-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.getItOn {
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 500;
+}
+
+.play-title {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 500;
+}
+
+.appStore {
+    text-decoration: none;
+    padding: 9px 13px;
+    display: flex;
+    gap: 11.05px;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1.39px solid rgb(166, 166, 166);
+    border-radius: 6.93px;
+    background: rgb(0, 0, 0);
+}
+
+.qolli-bezak {
+    width: 835.68px;
+    height: 1015.13px;
+    object-fit: cover;
+    position: absolute;
+    right: -32%;
+}
+
+.header-container1 {
+    justify-content: end;
+    gap: 370px;
+}
+
+.apps {
+    padding-top: 181px;
+    padding-bottom: 144px;
+}
+
+.apps-container {
+    max-width: 1662px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.apps-title {
+    color: #fff;
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2%;
+    text-align: center;
+}
+
+.apps-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+    margin-bottom: 40px;
+}
+
+.all-apps {
+    padding: 12px 24px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    border-radius: 99px;
+    color: rgb(255, 255, 255);
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app-logo {
+    width: 140.94px;
+    height: 142px;
+    display: flex;
+}
+
+.mindBox5 {
+    margin-bottom: 163px;
+}
+
+.diagrammaSection {
+    padding-top: 144px;
+    padding-bottom: 129px;
+}
+
+.diagrammaSection-container {
+    max-width: 1540px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.faq {
+    padding-top: 144px;
+    padding-bottom: 190px;
+}
+
+.faq-container {
+    max-width: 1160px;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+}
+
+.faq-title {
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 77px;
+    text-transform: capitalize;
+}
+
+.open_btn1 {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 12.5px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+    border: none;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 27px;
+    cursor: pointer;
+}
+
+.open_text1 {
+    color: #fff;
+    padding: 0px;
+    width: 100%;
+    margin-bottom: 12.5px;
+    height: 0px;
+    overflow: hidden;
+    transition: all .3s;
+}
+
+.faq-line {
+    border: 1px solid rgb(0, 163, 255);
+    display: flex;
+    height: 0px;
+    margin-bottom: 48px;
+    width: 100%;
+}
+
+.full-w1 {
+    border-radius: 0;
+}
+
+.serviceForm {
+    width: 100%;
+}
+
 /* LAPTOP VERSION */
 @media(max-width: 1390px) {
+
+    .hero2-title {
+        font-size: 56px;
+        /* max-width: 579px; */
+        color: #bbbbbb;
+    }
+
+    .hero2-text{
+        color: #bbbbbb;
+    }
+
+    .qolli-bezak {
+        right: -18%;
+        width: 835px;
+        height: 948px;
+        z-index: -2;
+    }
 
     .nav-link {
         font-size: 15px;
@@ -2036,6 +2319,46 @@ img {
 @media(max-width:1050px) {
     .hero-container {
         gap: 181px;
+    }
+
+    .qolli-bezak{
+        display: none;
+    }
+
+    .hero2{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .hero2-conntainer{
+        flex-direction: column;
+    }
+
+    .hero2-title{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero2-text{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .google-play{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .apps-box{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .apps{
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 
     .header {
@@ -2403,7 +2726,7 @@ img {
         line-height: 120%;
     }
 
-    .mind-list{
+    .mind-list {
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -2433,9 +2756,49 @@ img {
         display: none;
     }
 
+    .hero2-title{
+        font-size: 35px;
+        max-width: 556px;
+    }
+
+    .play-title{
+        font-size: 16px;
+    }
+
+    .google-play{
+        gap: 10px;
+    }
+
     .responsive {
         display: flex;
         flex-direction: column;
+    }
+
+    .apps-box{
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        height: 216px;
+        transition: all .3s;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+
+    .all-apps{
+        display: flex;
+        cursor: pointer;
+    }
+
+    .faq-title{
+        font-size: 35px;
+    }
+
+    .app-logo{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .open_btn1{
+        font-size: 18px;
     }
 
     .card-box-flex {
@@ -2727,7 +3090,7 @@ img {
         text-align: center;
     }
 
-    .mind-img{
+    .mind-img {
         height: 179px;
     }
 }

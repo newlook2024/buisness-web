@@ -1,0 +1,19 @@
+<svg width="147.935791" height="149.000000" viewBox="0 0 147.936 149" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip1_1084">
+			<rect id="icon" rx="31.928574" width="106.428574" height="106.428574" transform="matrix(-1 0 0 1 127.182 21.2856)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="app" rx="31.928574" width="147.935715" height="149.000000" transform="matrix(-1 0 0 1 147.936 0)" fill="#111218" fill-opacity="1.000000"/>
+	<rect id="icon" rx="31.928574" width="106.428574" height="106.428574" transform="matrix(-1 0 0 1 127.182 21.2856)" fill="#22242F" fill-opacity="1.000000"/>
+	<g clip-path="url(#clip1_1084)">
+		<path id="vector" d="M73.968 74.5005C73.968 68.1328 68.6074 62.9707 61.9949 62.9707C55.3821 62.9707 50.0215 68.1328 50.0215 74.5005C50.0215 80.8682 55.3821 86.0303 61.9949 86.0303C68.6074 86.0303 73.968 80.8682 73.968 74.5005Z" fill="#1ABCFE" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="vector" d="M97.9143 97.5598C97.9143 91.1921 92.5537 86.03 85.9412 86.03L73.9678 86.03L73.9678 97.5598C73.9678 103.927 79.3284 109.09 85.9412 109.09C92.5537 109.09 97.9143 103.927 97.9143 97.5598Z" fill="#0ACF83" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="vector" d="M73.968 39.9109L73.968 62.9705L61.9949 62.9705C55.3821 62.9705 50.0215 57.8083 50.0215 51.4407C50.0215 45.073 55.3821 39.9109 61.9949 39.9109L73.968 39.9109Z" fill="#FF7262" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="vector" d="M97.9143 51.4404C97.9143 57.8081 92.5537 62.9702 85.9412 62.9702L73.9678 62.9702L73.9678 39.9106L85.9412 39.9106C92.5537 39.9106 97.9143 45.0728 97.9143 51.4404Z" fill="#F24E1E" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="vector" d="M97.9143 74.5C97.9143 80.8677 92.5537 86.0298 85.9412 86.0298L73.9678 86.0298L73.9678 62.9702L85.9412 62.9702C92.5537 62.9702 97.9143 68.1323 97.9143 74.5Z" fill="#A259FF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>
